@@ -1,0 +1,14 @@
+[package]
+name = "toml-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal TOML 1.0.0 parser — zero dependencies, pure Rust stdlib only"
+license = "MIT"
+
+[lib]
+name = "toml_rs"
+path = "src/lib.rs"
+
+[[test]]
+name = "integration"
+path = "tests/integration.rs"
